@@ -1,0 +1,18 @@
+nav{
+    border: $border;
+    border-radius: $radius;
+    margin-top: $martop;
+    background-image: radial-gradient(circle, #abffbd, #8de4a3, #70ca89, #52b070, #319758);
+}
+
+.nav-link{
+    color: white;
+    text-shadow: $texshad;
+    font-family: 'Caveat', cursive, Arial, sans-serif;
+    font-size: 1.4em;
+}
+
+.nav-item{
+    display: block;
+    margin: 0 auto;
+}

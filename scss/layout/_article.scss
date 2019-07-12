@@ -1,0 +1,30 @@
+.cv{
+
+    &__skills, &__formations, &__exp, &__passion, &__profil, &__projets{
+        border: $border;
+        border-radius: $radius;
+        margin-top: $martop;
+        height: 350px;
+        margin-left: auto;
+        background-image: radial-gradient(circle, #abcdff, #8db4e4, #6f9bca, #5183b0, #316c97);
+        box-shadow: $boxshad;
+    }
+
+    &__imgpro{
+    
+    width:150px;
+    height: 150px;
+    border-radius: 75px;
+    border: $border;
+    margin: 3px;
+    float: right;
+    }
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 5px;
+    
+}

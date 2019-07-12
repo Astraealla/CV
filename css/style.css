@@ -1,0 +1,83 @@
+header {
+  border: 1px solid pink;
+  border-radius: 5% 5% 5% 5%;
+  margin-top: 5px;
+  background-image: radial-gradient(circle, #505d70, #606580, #756b8e, #8f7097, #aa759a); }
+
+h1 {
+  font-family: Georgia, sans-serif;
+  color: pink;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Dancing Script', cursive, Arial, sans-serif; }
+
+body {
+  background-image: url("../img/pinkdust.png");
+  background-repeat: repeat; }
+
+nav {
+  border: 1px solid pink;
+  border-radius: 5% 5% 5% 5%;
+  margin-top: 5px;
+  background-image: radial-gradient(circle, #abffbd, #8de4a3, #70ca89, #52b070, #319758); }
+
+.nav-link {
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  font-family: 'Caveat', cursive, Arial, sans-serif;
+  font-size: 1.4em; }
+
+.nav-item {
+  display: block;
+  margin: 0 auto; }
+
+.cv__skills, .cv__formations, .cv__exp, .cv__passion, .cv__profil, .cv__projets {
+  border: 1px solid pink;
+  border-radius: 5% 5% 5% 5%;
+  margin-top: 5px;
+  height: 350px;
+  margin-left: auto;
+  background-image: radial-gradient(circle, #abcdff, #8db4e4, #6f9bca, #5183b0, #316c97);
+  box-shadow: 10px 10px 10px black; }
+.cv__imgpro {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  border: 1px solid pink;
+  margin: 3px;
+  float: right; }
+
+.icons {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 5px; }
+
+.aside__contact {
+  border: 1px solid pink;
+  border-radius: 5% 5% 5% 5%;
+  margin-top: 5px;
+  height: 250px;
+  background-image: linear-gradient(to right top, #ffe1ab, #e5c08a, #cb9f6a, #b1804d, #976131);
+  box-shadow: 10px 10px 10px black; }
+
+h2 {
+  color: white;
+  text-decoration: underline;
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+  font-family: 'Parisienne', cursive, Arial, sans-serif; }
+
+p {
+  color: white;
+  padding: 3px; }
+
+h3 {
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 2px black; }
+
+/* Version tablette */
+/* Version ordinateur */
+
+/*# sourceMappingURL=style.css.map */
