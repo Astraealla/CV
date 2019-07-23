@@ -1,24 +1,19 @@
 header {
-  border: 1px solid pink;
-  border-radius: 5% 5% 5% 5%;
-  margin-top: 5px;
-  background-image: radial-gradient(circle, #505d70, #606580, #756b8e, #8f7097, #aa759a); }
+  background-image: url(../img/background-1507145_1920.jpg);
+  height: 15rem; }
 
 h1 {
   font-family: Georgia, sans-serif;
-  color: pink;
-  font-size: 50px;
+  color: black;
+  font-size: 80px;
   text-align: center;
   font-family: 'Dancing Script', cursive, Arial, sans-serif; }
 
-body {
-  background-image: url("../img/pinkdust.png");
-  background-repeat: repeat; }
+p {
+  text-align: center; }
 
 nav {
-  border: 1px solid pink;
-  border-radius: 5% 5% 5% 5%;
-  margin-top: 5px;
+  border: 1px solid black;
   background-image: radial-gradient(circle, #abffbd, #8de4a3, #70ca89, #52b070, #319758); }
 
 .nav-link {
@@ -32,7 +27,7 @@ nav {
   margin: 0 auto; }
 
 .cv__skills, .cv__formations, .cv__exp, .cv__passion, .cv__profil, .cv__projets {
-  border: 1px solid pink;
+  border: 1px solid black;
   border-radius: 5% 5% 5% 5%;
   margin-top: 5px;
   height: 350px;
@@ -43,7 +38,7 @@ nav {
   width: 150px;
   height: 150px;
   border-radius: 75px;
-  border: 1px solid pink;
+  border: 1px solid black;
   margin: 3px;
   float: right; }
 
@@ -51,15 +46,33 @@ nav {
   display: flex;
   justify-content: center;
   margin: auto;
+  flex-wrap: wrap;
+  padding: 1rem; }
+
+.fab, .fas, .far {
+  margin-right: .5rem;
+  margin-left: .5rem; }
+
+.img__projets {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  border: 1px solid black;
+  margin: auto;
+  display: flex;
+  justify-content: center;
   flex-wrap: wrap; }
 
 .aside__contact {
-  border: 1px solid pink;
+  border: 1px solid black;
   border-radius: 5% 5% 5% 5%;
   margin-top: 5px;
   height: 250px;
   background-image: linear-gradient(to right top, #ffe1ab, #e5c08a, #cb9f6a, #b1804d, #976131);
   box-shadow: 10px 10px 10px black; }
+
+body {
+  background-color: pink; }
 
 h2 {
   color: white;

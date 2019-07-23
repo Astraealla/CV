@@ -1,17 +1,18 @@
 header{
-    border: $border;
-    border-radius: $radius;
-    margin-top: $martop;
-    background-image: radial-gradient(circle, #505d70, #606580, #756b8e, #8f7097, #aa759a);
+    background-image: url(../img/background-1507145_1920.jpg);
+    height: 15rem;
 }
 
 
 
 h1{
     font-family: Georgia, sans-serif;
-    color: pink;
-    font-size: 50px;
+    color: black;
+    font-size: 80px;
     text-align: $center;
     font-family: 'Dancing Script', cursive, Arial, sans-serif;
+}
 
+p{
+    text-align: $center;
 }

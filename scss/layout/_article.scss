@@ -26,5 +26,24 @@
     justify-content: center;
     margin: auto;
     flex-wrap: wrap;
+    padding: 1rem;
     
+}
+
+.fab, .fas, .far
+{
+    margin-right: .5rem;
+    margin-left: .5rem;
+}
+
+
+.img__projets{
+    width: 150px;
+    height: 150px;
+    border-radius:75px;
+    border: $border;
+    margin: auto;
+    display: flex;
+    justify-content: $center;
+    flex-wrap: wrap;
 }
