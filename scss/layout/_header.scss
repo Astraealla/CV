@@ -13,6 +13,18 @@ h1{
     font-family: 'Dancing Script', cursive, Arial, sans-serif;
 }
 
-p{
+
+.animation{
     text-align: $center;
+    animation: slidein 4s 1;
 }
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+ }
