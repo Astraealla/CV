@@ -48,10 +48,13 @@
     flex-wrap: wrap;
 }
 
-button{
-    margin-left: 10px;
+a.cvpdf{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 2vh;
+    margin-left: 5px;
 }
-
 /* version ordinateur */
 
 @media screen and (min-width: 800px){
