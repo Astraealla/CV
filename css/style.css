@@ -48,7 +48,7 @@ nav {
   border: 1px solid black;
   border-radius: 5% 5% 5% 5%;
   margin-top: 5px;
-  height: 415px;
+  height: 485px;
   margin-left: auto;
   background-image: radial-gradient(circle, #abcdff, #8db4e4, #6f9bca, #5183b0, #316c97);
   box-shadow: 10px 10px 10px black; }
@@ -80,6 +80,9 @@ nav {
   display: flex;
   justify-content: center;
   flex-wrap: wrap; }
+
+button {
+  margin-left: 10px; }
 
 /* version ordinateur */
 @media screen and (min-width: 800px) {
