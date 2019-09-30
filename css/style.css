@@ -44,7 +44,7 @@ nav {
     top: 25px; }
   to {
     top: 50px; } }
-.cv__skills, .cv__formations, .cv__exp, .cv__passion, .cv__profil, .cv__projets {
+.cv__skills, .cv__formations, .cv__exp, .cv__hobbies, .cv__profil, .cv__projects {
   border: 1px solid black;
   border-radius: 5% 5% 5% 5%;
   margin-top: 5px;
@@ -71,7 +71,7 @@ nav {
   margin-right: .5rem;
   margin-left: .5rem; }
 
-.img__projets {
+.img__projects {
   width: 150px;
   height: 150px;
   border-radius: 75px;
@@ -90,7 +90,7 @@ a.cvpdf {
 
 /* version ordinateur */
 @media screen and (min-width: 800px) {
-  .cv__skills, .cv__formations, .cv__exp, .cv__passion, .cv__profil, .cv__projets {
+  .cv__skills, .cv__formations, .cv__exp, .cv__hobbies, .cv__profil, .cv__projects {
     border: 1px solid black;
     border-radius: 5% 5% 5% 5%;
     margin-top: 5px;

@@ -1,6 +1,6 @@
 .cv{
 
-    &__skills, &__formations, &__exp, &__passion, &__profil, &__projets{
+    &__skills, &__formations, &__exp, &__hobbies, &__profil, &__projects{
         border: $border;
         border-radius: $radius;
         margin-top: $martop;
@@ -37,7 +37,7 @@
 }
 
 
-.img__projets{
+.img__projects{
     width: 150px;
     height: 150px;
     border-radius:75px;
@@ -60,7 +60,7 @@ a.cvpdf{
 @media screen and (min-width: 800px){
     
     .cv{
-        &__skills, &__formations, &__exp, &__passion, &__profil, &__projets{
+        &__skills, &__formations, &__exp, &__hobbies, &__profil, &__projects{
             border: $border;
             border-radius: $radius;
             margin-top: $martop;
